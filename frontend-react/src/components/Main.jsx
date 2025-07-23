@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from './Button'
 
+
 const Main = () => {
   return (
    <>
@@ -13,7 +14,7 @@ const Main = () => {
       Eos eveniet maiores modi ipsum placeat omnis dolor doloribus illum velit. Iure dolorum alias
        tempore necessitatibus nihil? Omnis voluptatibus, earum ratione fuga 
        nobis iusto quas recusandae qui id exercitationem aperiam.</p>
-       <Button text='Login' class='btn-outline-info' />
+       <Button text='Login' class='btn-outline-info' url='/login'/>
     </div>
    </div>
    </>
